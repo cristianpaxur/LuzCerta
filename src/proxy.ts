@@ -4,7 +4,7 @@ import Negotiator from "negotiator";
 import { match } from "@formatjs/intl-localematcher";
 
 const locales = ["pt", "en"];
-const defaultLocale = "pt";
+const defaultLocale = "en";
 
 function getLocale(request: NextRequest): string {
   const headers: Record<string, string> = {};
@@ -29,17 +29,17 @@ export function proxy(request: NextRequest) {
       pathname.startsWith(`/${locale}/`) || pathname === `/${locale}`
   );
 
-  if (pathnameHasLocale) return;
+  if (pathnameHasLocale) return NextResponse.next();
 
   // Redirect to locale path
   const locale = getLocale(request);
-  request.nextUrl.pathname = `/${locale}${pathname}`;
-  return NextResponse.redirect(request.nextUrl);
+  const redirectUrl = new URL(`/${locale}${pathname}`, request.url);
+  return NextResponse.redirect(redirectUrl);
 }
 
 export const config = {
   matcher: [
-    // Skip internal paths and static files
+    // Skip internal paths and static/public files
     "/((?!_next|favicon\\.ico|.*\\..*).*)",
   ],
 };

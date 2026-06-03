@@ -14,15 +14,23 @@
     <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS" />
     <img src="https://img.shields.io/badge/i18n-PT_BR%20|%20EN-orange?style=for-the-badge" alt="Internationalization" />
   </div>
+
+  <div style="margin-top: 15px;">
+    <a href="COLE_SEU_LINK_DA_VERCEL_AQUI" target="_blank">
+      <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Vercel Link" />
+    </a>
+  </div>
 </div>
 
 <br />
 
-## 📖 O Problema
+## 📖 O Problema & O Contexto Familiar
+
+Este projeto nasceu de uma necessidade real da minha mãe. Ela vinha reclamando frequentemente de que a conta de luz estava vindo muito cara, mas não tinha uma forma simples e prática de saber quais dos equipamentos dela gastavam mais e se a cobrança da conta estava vindo correta.
 
 Entender a conta de luz é difícil para a maioria das pessoas. O cálculo envolve conversões confusas de Watts para Kilowatts, multiplicação por horas diárias, dias no mês e taxas tarifárias que ninguém memoriza. 
 
-Quando alguém quer saber: *"Será que meu chuveiro está deixando a conta cara?"*, as calculadoras online exigem que o usuário saiba o jargão técnico (kWh, potência, etc.), frustrando o usuário comum.
+Quando alguém (como minha mãe) quer saber: *"Será que meu chuveiro está deixando a conta cara?"*, as calculadoras online exigem que o usuário saiba o jargão técnico (kWh, potência, etc.), frustrando o usuário comum.
 
 ## 💡 A Solução: LuzCerta
 
@@ -31,6 +39,10 @@ O **LuzCerta** é uma calculadora de consumo de energia com um foco obsessivo em
 - **Dicionário Visual:** Em vez de pedir "Potência em Watts", o app oferece presets visuais (Geladeira, Chuveiro, TV) com valores médios pré-configurados.
 - **Entrada de Tempo Intuitiva:** Em vez de digitar "1.5 horas" em um input numérico, o usuário usa um slider amigável ("1 hora e 30 minutos").
 - **Insights Acionáveis:** O app gera um ranking de consumo ("O Chuveiro representa 40% da sua conta") e oferece dicas de economia contextuais baseadas no que o usuário adicionou.
+
+### 📸 Demonstração da Página Inicial
+
+![Página Inicial do LuzCerta](public/screenshot-home.png)
 
 ---
 

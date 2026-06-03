@@ -14,15 +14,23 @@
     <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS" />
     <img src="https://img.shields.io/badge/i18n-PT_BR%20|%20EN-orange?style=for-the-badge" alt="Internationalization" />
   </div>
+
+  <div style="margin-top: 15px;">
+    <a href="COLE_SEU_LINK_DA_VERCEL_AQUI" target="_blank">
+      <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Vercel Link" />
+    </a>
+  </div>
 </div>
 
 <br />
 
-## 📖 The Problem
+## 📖 The Problem & The Family Context
+
+This project was born from a real need. My mother had been complaining about the rising cost of our electricity bill but lacked a simple and practical way to check which of her appliances was consuming the most and whether the bill was correct.
 
 Understanding electricity bills is tough for most people. The calculation involves confusing conversions from Watts to Kilowatts, multiplying by daily hours, days in a month, and tariff rates that no one memorizes.
 
-When someone wonders: *"Is my electric shower making my bill too expensive?"*, online calculators require the user to know technical jargon (kWh, power, etc.), causing frustration for the average user.
+When someone (like my mom) wonders: *"Is my electric shower making my bill too expensive?"*, online calculators require the user to know technical jargon (kWh, power, etc.), causing frustration for the average user.
 
 ## 💡 The Solution: LuzCerta
 
@@ -31,6 +39,10 @@ When someone wonders: *"Is my electric shower making my bill too expensive?"*, o
 - **Visual Dictionary:** Instead of asking for "Power in Watts", the app offers visual presets (Fridge, Electric Shower, TV) with pre-configured average values.
 - **Intuitive Time Input:** Instead of typing "1.5 hours" into a numeric input, the user uses a friendly slider ("1 hour and 30 minutes").
 - **Actionable Insights:** The app generates a consumption ranking ("The Shower accounts for 40% of your bill") and offers contextual saving tips based on what the user added.
+
+### 📸 Homepage Demonstration
+
+![LuzCerta Homepage](public/screenshot-home.png)
 
 ---
 
