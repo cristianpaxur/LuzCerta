@@ -16,7 +16,7 @@
   </div>
 
   <div style="margin-top: 15px;">
-    <a href="COLE_SEU_LINK_DA_VERCEL_AQUI" target="_blank">
+    <a href="https://luz-certa-green.vercel.app/pt" target="_blank">
       <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Vercel Link" />
     </a>
   </div>
